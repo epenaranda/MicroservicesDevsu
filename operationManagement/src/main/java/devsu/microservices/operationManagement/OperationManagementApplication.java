@@ -1,13 +1,13 @@
-package devsu.prueba.microservicios;
+package devsu.microservices.operationManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroserviciosApplication {
+public class OperationManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroserviciosApplication.class, args);
+		SpringApplication.run(OperationManagementApplication.class, args);
 	}
 
 }

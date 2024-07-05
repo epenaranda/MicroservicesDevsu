@@ -1,13 +1,13 @@
-package devsu.prueba.microservicios;
+package devsu.microservices.userManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroserviciosApplication {
+public class UserManagementApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroserviciosApplication.class, args);
+		SpringApplication.run(UserManagementApplication.class, args);
 	}
 
 }
